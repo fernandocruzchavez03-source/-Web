@@ -21,9 +21,9 @@ window.CARVIA_CARS = [
   ['porsche-panamera', 'Porsche Panamera', 'Performance', '4 pasajeros', 10500, 'img/cars/porsche-panamera.jpg', '353 hp'],
   ['bmw-m5', 'BMW M5', 'Performance', '5 pasajeros', 11500, 'img/cars/bmw-m5.jpg', '717 hp'],
   ['audi-rs7-performance', 'Audi RS7 Performance', 'Performance', '5 pasajeros', 11500, 'img/cars/audi-rs7-performance.jpg', '621 hp'],
-  ['porsche-taycan', 'Porsche Taycan', 'Eléctrico / Performance', '4–5 pasajeros', 8500, '', '435 hp'],
-  ['porsche-taycan-cross-turismo', 'Porsche Taycan Cross Turismo', 'Eléctrico / Performance', '4–5 pasajeros', 9500, '', '598 hp'],
-  ['mercedes-eqs-suv', 'Mercedes-Benz EQS SUV', 'Eléctrico / Luxury SUV', '5–7 pasajeros', 8000, '', '536 hp']
+  ['porsche-taycan', 'Porsche Taycan', 'Eléctrico / Performance', '4–5 pasajeros', 8500, 'img/cars/porsche-taycan.jpg', '435 hp'],
+  ['porsche-taycan-cross-turismo', 'Porsche Taycan Cross Turismo', 'Eléctrico / Performance', '4–5 pasajeros', 9500, 'img/cars/porsche-taycan-cross-turismo.jpg', '598 hp'],
+  ['mercedes-eqs-suv', 'Mercedes-Benz EQS SUV', 'Eléctrico / Luxury SUV', '5–7 pasajeros', 8000, 'img/cars/mercedes-benz-eqs-suv.jpg', '536 hp']
 ].map(([slug, name, category, passengers, price, image, power]) => ({
   slug,
   name,
